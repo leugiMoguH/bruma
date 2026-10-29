@@ -1,0 +1,24 @@
+{
+  "selected": "B",
+  "author": "Quaternius",
+  "url": "https://quaternius.com/",
+  "license": "CC0-1.0",
+  "sourcePackage": "Modular Character Outfits Fantasy",
+  "shared": ["Superhero_Female_FullBody (head/neck/eyes only)", "Hair_Buns", "Eyebrows_Female", "Female_Peasant_Arms (closed gloves)", "Female_Peasant_Feet"],
+  "sharedPackage": "Universal Base Characters (body, hair and eyebrows), Quaternius, CC0-1.0",
+  "A": {
+    "file": "protagonista-A.glb",
+    "parts": ["Female_Peasant_Body", "Female_Peasant_Legs"],
+    "generate": "node ferramentas/recursos.mjs --personagem --opcao=A",
+    "assessment": "Original textile detail retained, but original atlas still outlines the fitted bodice cups. Rejected in favour of B."
+  },
+  "B": {
+    "file": "protagonista-B.glb",
+    "parts": ["Female_Ranger_Body", "Female_Ranger_Body_Belt_1", "Female_Ranger_Body_Belt_2", "Female_Ranger_Legs"],
+    "generate": "node ferramentas/recursos.mjs --personagem --opcao=B",
+    "assessment": "Selected: original vest over shirt, no hood; original atlas and cloth topology retained, belt meshes optimized. Peasant sleeves, closed gloves and boots."
+  },
+  "processing": "Blender 4.5.15 LTS: chest plane for body/Peasant; gentler chest displacement preserving layer thickness for Ranger; smooth falloff, weighted smoothing and outside-only shrinkwrap against reshaped body. Original UVs, textures, joints and skin retained; strongest-four weight reduction for Ranger.",
+  "capture": "BRUMA_GPU=1 node ferramentas/comparar-roupa.mjs",
+  "validationLimit": "Portrait idle and walk inspected in engine. No cloth simulation; extreme gestures not exhaustively checked."
+}

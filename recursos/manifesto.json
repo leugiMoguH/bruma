@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "file": "protagonista.glb",
+      "sources": [
+        "Universal-Base-Characters/Universal Base Characters[Standard]/Base Characters/Godot - UE/Superhero_Female_FullBody.gltf",
+        "Modular-Character-Outfits---Fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Body.gltf",
+        "Modular-Character-Outfits---Fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Arms.gltf",
+        "Modular-Character-Outfits---Fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Ranger_Legs.gltf",
+        "Modular-Character-Outfits---Fantasy/Modular Character Outfits - Fantasy[Standard]/Exports/glTF (Godot-Unreal)/Modular Parts/Female_Peasant_Feet.gltf",
+        "Universal-Base-Characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Hair_Buns.gltf",
+        "Universal-Base-Characters/Universal Base Characters[Standard]/Hairstyles/Rigged to Head Bone/glTF (Godot -Unreal)/Eyebrows_Female.gltf"
+      ],
+      "before": 148764818,
+      "after": 1018644
+    },
+    {
+      "file": "animacoes.glb",
+      "sources": [
+        "Universal-Animation-Library/Universal Animation Library[Standard]/Unreal-Godot/UAL1_Standard.glb",
+        "Universal-Animation-Library-2/Universal Animation Library 2[Standard]/Unreal-Godot/UAL2_Standard.glb"
+      ],
+      "before": 15709880,
+      "after": 392628
+    },
+    {
+      "file": "praca.glb",
+      "sources": [
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Wall_Plaster_Straight.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Wall_Plaster_Door_Round.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Wall_Plaster_Window_Wide_Flat.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Door_1_Round.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Window_Wide_Flat1.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/WindowShutters_Wide_Flat_Open.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Roof_RoundTiles_6x8.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Roof_Front_Brick6.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Prop_Chimney.gltf",
+        "Stylized-Nature-MegaKit/glTF/CommonTree_1.gltf",
+        "Stylized-Nature-MegaKit/glTF/Bush_Common_Flowers.gltf",
+        "Stylized-Nature-MegaKit/glTF/Flower_3_Group.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Bench.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Crate_Wooden.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Lantern_Wall.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Pot_1.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Barrel.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Balcony_Cross_Straight.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Floor_WoodDark.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Stairs_Exterior_Straight.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Prop_ExteriorBorder_Straight1.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Wall_UnevenBrick_Straight.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Roof_Tower_RoundTiles.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Prop_Vine1.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Stall_Empty.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Bag.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Bucket_Wooden_1.gltf",
+        "Stylized-Nature-MegaKit/glTF/Rock_Medium_1.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/FarmCrate_Empty.gltf",
+        "Fantasy-Props-MegaKit/Exports/glTF/Carrot.gltf",
+        "Medieval-Village-MegaKit/Medieval Village MegaKit[Standard]/glTF/Corner_Exterior_Wood.gltf"
+      ],
+      "before": 384580673,
+      "after": 1379860
+    }
+  ],
+  "clips": [
+    "Dance_Loop",
+    "Idle_Loop",
+    "Interact",
+    "Jog_Fwd_Loop",
+    "Jump_Land",
+    "Jump_Loop",
+    "Jump_Start",
+    "Walk_Loop",
+    "Idle_Rail_Call"
+  ],
+  "notes": [
+    "Source byte counts include referenced buffers/images per input; shared inputs may be counted more than once.",
+    "Canonical female bind pose; rotations plus pelvis translation. Runtime keeps vertical pelvis offset only, bounded to 10 cm."
+  ],
+  "totalAfter": 2791132,
+  "characterOption": "B"
+}
